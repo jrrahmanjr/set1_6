@@ -1,5 +1,5 @@
 year = int(raw_input())
 if(year%4==0 and year%100!=0 or year%400==0):
-    print year,"is leap year"
+    print "Yes"
 else:
-    print year,"is not a leap year"
+    print "No"
